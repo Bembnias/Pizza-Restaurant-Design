@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta >
+<meta charset="utf-8"/>
+<link rel="shortcut icon" type="image/png" href="img/favicon.png">
+<title>Pizzeria Kamienicka</title>
+<meta name="keywords" content=""/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css" media="screen,projection">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css"/>
+<link rel="stylesheet" href="style/style.css">
+
+</head>
+
+<body>
+  <!-- SECTION: NAVIGATION -->
+    <nav class="amber darken-1">
+      <div class="container nav-wrapper">
+        <a href="#" class="brand-logo"><div class="logo" class="right-align"><img src="img/logo.svg" alt="kamienicka logo brand"></div><span class="hide-on-med-and-down left-align">Kamienicka</span></a>
+        <a href="#" data-target="slide-out" class="sidenav-trigger hide-on-large-only right"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="contact.html">Kontakt i dostawa</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- ONLY FOR MOBILE SIDENAV -->
+    <ul id="slide-out" class="sidenav">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="contact.html">Kontakt i dostawa</a></li>
+    </ul>
+
+  <!-- SECTION: SHOWCASE -->
+  <section class="slider">
+    <ul class="slides">
+      <li>
+        <img src="img/showcase1.png" alt="showcase-img"> <!-- random image -->
+        <div class="caption center-align">
+          <h3 class="grey-text text-lighten-3">Ulubione napoje w niskich cenach!</h3>
+          <h3 class="light grey-text text-lighten-3 hide-on-med-and-down">Za napoje zapałacisz tak tanio jak w sklepie.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="img/showcase2.jpeg" alt="showcase-img"> <!-- random image -->
+        <div class="caption center-align">
+          <h2 class="grey-text text-darken-3">Najlepsza pizza w regionie!</h3>
+          <h3 class="light grey-text text-darken-3 hide-on-med-and-down">Zapraszamy do naszej przytulnej restauracji,<br/>przyjdź i poczuj się jak w domu.</h5>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <!-- SECTION: PROMO-INFO -->
+  <section>
+    <div style="margin-top:6rem" class="center-align">
+      <h3 class="grey-text text-darken-3"><i class="fab fa-hotjar"></i><span style="color:#d50000;margin:0 0 0 0.6rem;">Hot</span> promocje!</h3>
+    </div>
+  </section>
+
+  <!-- SECTION: PROMOBOXES - DELIVERY -->
+  <section class="one deliverBox container">
+    <div class="row">
+        <h2 class="col s12 center-align grey-text text-darken-3">Darmowa dostawa</h3>
+        <p class="center-align grey-text text-darken-3 flow-text">Do 20km od restauracji dowozimy pizze za darmo!<br/>Powyżej 20km naliczamy 1zł od każdego kilometra.</p>
+        <div class="col s12 center-align"><img class="promoSVG" src="img/promos/freeDelivery.svg" alt="free delivery"></div>
+    </div>
+  </section>
+  <!-- FREE PIZZA -->
+  <section class="two freeBox container">
+    <div class="row">
+        <h2 class="col s12 center-align grey-text text-darken-3">Bonusowa pizza</h3>
+        <p class="center-align grey-text text-darken-3 flow-text">Kup dużą pizzę (40cm) a małą dostaniesz za darmo!</p>
+        <div class="col s12 center-align"><img class="promoSVG" src="img/promos/oneMore.svg" alt="free pizza"></div>
+    </div>
+  </section>
+
+  <!-- SECTION: FOOTER -->
+  <footer class="page-footer deep-orange darken-4">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Zadzwoń:</h5>
+          <p class="grey-text text-lighten-4">W razie większych zamówień, powyżej 10 pizz proszę dzwonić:<br/><i class="material-icons tiny">call</i> 500 123 456</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Przejdź do:</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="menu.html">Menu</a></li>
+            <li><a class="grey-text text-lighten-3" href="contact.html">Kontakt i dostawa</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright hide-on-med-and-down">
+      <div class="container">
+      © 2018 Pizzeria Kamienicka
+      <a class="grey-text text-lighten-4 right" href="#!">Designed by M.Bienias</a>
+      </div>
+    </div>
+    <!-- ONLY FOR MOBILE -->
+    <div class="footer-copyright hide-on-large-only">
+      <div class="container center-align">
+      © 2018 Pizzeria Kamienicka
+      <br/>
+      <a class="grey-text text-lighten-4 center-align" href="#!">Designed by M.Bienias</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- SECTION: JAVASCRIPT CODE -->
+  <script type="text/javascript" src="javascript/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-viewport-checker/1.8.8/jquery.viewportchecker.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <script type="text/javascript" src="javascript/animate.js"></script>
+  <script type="text/javascript" src="javascript/initial.js"></script>
+</body>
+</html>
